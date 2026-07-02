@@ -1,6 +1,6 @@
 FROM alpine:3.22
 
-ARG MARIADB_VERSION=11.4.8-r0
+ARG MARIADB_VERSION=11.4.12-r0
 
 RUN apk add --no-cache \
             mariadb=$MARIADB_VERSION \
